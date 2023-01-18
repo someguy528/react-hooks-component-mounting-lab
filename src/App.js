@@ -12,8 +12,14 @@ class App extends Component {
 
   //Your code here:
 
-
-
+  componentDidMount(){
+    // this.interval = setInterval(()=>{
+    //   this.setState((prevState) => ({
+    //     time: prevState + 1
+    //   }))
+    // }, 1000);
+    this.handleAddTimer()
+  }
 
 
 
